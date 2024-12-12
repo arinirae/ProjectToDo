@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\services\\statusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\services\\statusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\services\\dto\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\services\\dto\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\services\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\services\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|c:\\users\\asus\\documents\\source\\projecttodo\\projecttodo\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7273C05-7858-473E-86B4-AD12B877E85D}|ProjectToDo\\ProjectToDo.csproj|solutionrelative:projecttodo\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ProjectToDo\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAuwE0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:53:05.056Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Services\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\ProjectService.cs",
+              "RelativeToolTip": "ProjectToDo\\Services\\ProjectService.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAUwD4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T21:50:15.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\TaskService.cs",
+              "RelativeToolTip": "ProjectToDo\\Services\\TaskService.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAuwFwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:21:07.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "ProjectToDo\\Controllers\\ProjectController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAFQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:49:35.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StatusController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Controllers\\StatusController.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Controllers\\StatusController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Controllers\\StatusController.cs",
+              "RelativeToolTip": "ProjectToDo\\Controllers\\StatusController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwB4AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:47:38.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "ProjectToDo\\Controllers\\RoleController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAqwFUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T10:32:11.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\UserService.cs",
+              "RelativeToolTip": "ProjectToDo\\Services\\UserService.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAqwEIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:05:04.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StatusService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\StatusService.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Services\\StatusService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\StatusService.cs",
+              "RelativeToolTip": "ProjectToDo\\Services\\StatusService.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAA0wCYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:21:23.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ProjectToDo\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T09:15:42.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\Dto\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Services\\Dto\\ProjectDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\Dto\\ProjectDto.cs",
+              "RelativeToolTip": "ProjectToDo\\Services\\Dto\\ProjectDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:59:03.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "ProjectToDo\\Controllers\\TaskController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAADkAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:50:51.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Program.cs",
+              "RelativeToolTip": "ProjectToDo\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAwDkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T10:08:44.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\Dto\\UserDto.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Services\\Dto\\UserDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\Dto\\UserDto.cs",
+              "RelativeToolTip": "ProjectToDo\\Services\\Dto\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:58:36.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "ProjectToDo\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\Source\\ProjectToDo\\ProjectToDo\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "ProjectToDo\\Services\\AuthenticationService.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAQwDwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T08:47:51.161Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
