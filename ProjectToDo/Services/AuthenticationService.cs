@@ -59,6 +59,7 @@ namespace ProjectToDo.Services
                 new Claim(JwtRegisteredClaimNames.Iat, EpochTime.GetIntDate(DateTime.UtcNow).ToString(CultureInfo.InvariantCulture), ClaimValueTypes.Integer64),
                 new Claim("Id", user.Id.ToString()),
                 new Claim("Username", user.Username),
+                new Claim("RoleId", user.RoleId.ToString()),
                 };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("5dacc24ac51bf183b7f1d1c6664ee3faaa960889"));

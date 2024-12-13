@@ -92,7 +92,7 @@ namespace ProjectToDo.Controllers
 
                 var obj = new
                 {
-                    msg = "Tambah Task Gagal!"
+                    msg = "Tambah Task Gagal! " + ex.Message
                 };
 
                 return StatusCode(500, obj);
@@ -128,7 +128,7 @@ namespace ProjectToDo.Controllers
 
                 var obj = new
                 {
-                    msg = "Ubah Task Gagal!"
+                    msg = "Ubah Task Gagal! " + ex.Message
                 };
 
                 return StatusCode(500, obj);
@@ -163,7 +163,7 @@ namespace ProjectToDo.Controllers
 
                 var obj = new
                 {
-                    msg = "Hapus Task Gagal!"
+                    msg = "Hapus Task Gagal! " + ex.Message
                 };
 
                 return StatusCode(500, obj);

@@ -27,6 +27,8 @@ builder.Services.AddScoped<IStatusService, StatusService>();
 builder.Services.AddScoped<ITaskService, TaskService>(); 
 builder.Services.AddMemoryCache();
 
+builder.Services.AddHttpContextAccessor();
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
     options.RequireHttpsMetadata = false;
