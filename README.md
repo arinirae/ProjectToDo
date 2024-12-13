@@ -5,5 +5,5 @@
 
 * Untuk database bisa langsung menjalankan update-database agar data migration bisa berjalan sehingga tidak perlu membuat manual table dan seed data nya
 * Pada project ini, terdapat seed data untuk table Role, Status, dan User (untuk data login username: admin, password: Password1!)
-* Yang perlu di-install : .Net 6, Postman (untuk menjalankan REST API)
+* Yang perlu di-install : Visual Studio, .Net 6, Postman (untuk menjalankan REST API)
   
