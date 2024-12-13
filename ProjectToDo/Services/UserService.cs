@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ProjectToDo.Models;
 using ProjectToDo.Services.Dto;
+using System.Security.Claims;
 
 namespace ProjectToDo.Services
 {
@@ -16,8 +18,11 @@ namespace ProjectToDo.Services
     public class UserService : IUserService
     {
         private readonly ToDoDbContext _context;
-        public UserService(ToDoDbContext context)
+
+        private ClaimsPrincipal UserClaim;
+        public UserService(IHttpContextAccessor httpContextAccessor, ToDoDbContext context)
         {
+            UserClaim = httpContextAccessor.HttpContext.User;
             _context = context;
         }
 
@@ -25,15 +30,31 @@ namespace ProjectToDo.Services
         {
             try
             {
-                var cekData = (from a in _context.Users
-                               where a.Id == id
-                               select a);
-                if (cekData.Any()) 
+                var roleId = UserClaim.Claims.First(c => c.Type == "RoleId").Value;
+                var cekRole = (from a in _context.Roles
+                               where a.Id.ToString() == roleId
+                               select a.Name).FirstOrDefault();
+                if (cekRole == "Admin")
                 {
-                    var delete = await cekData.FirstOrDefaultAsync();
-                    _context.Users.Remove(delete);
-                    await _context.SaveChangesAsync();
+                    var cekData = (from a in _context.Users
+                                   where a.Id == id
+                                   select a);
+                    if (cekData.Any())
+                    {
+                        var delete = await cekData.FirstOrDefaultAsync();
+                        _context.Users.Remove(delete);
+                        await _context.SaveChangesAsync();
+                    }
+                    else
+                    {
+                        throw new Exception("User ini tidak ada");
+                    }
                 }
+                else
+                {
+                    throw new Exception("Role Anda bukan Admin");
+                }
+
             }
             catch (Exception ex)
             { 
@@ -76,25 +97,36 @@ namespace ProjectToDo.Services
         {
             try
             {
-                var cekData = (from a in _context.Users
-                               where a.Username == input.Username
-                               select a).Any();
-                if (!cekData)
+                var roleId = UserClaim.Claims.First(c => c.Type == "RoleId").Value;
+                var cekRole = (from a in _context.Roles
+                               where a.Id.ToString() == roleId
+                               select a.Name).FirstOrDefault();
+                if (cekRole == "Admin")
                 {
-                    var passwordHasher = new PasswordHasher<User>();
-                    var insertUser = new User
+                    var cekData = (from a in _context.Users
+                                   where a.Username == input.Username
+                                   select a).Any();
+                    if (!cekData)
                     {
-                        Name = input.Name,
-                        Username = input.Username,
-                        RoleId = input.RoleId,
-                        Password = passwordHasher.HashPassword(new User(), input.Password),
-                    };
-                    await _context.Users.AddAsync(insertUser);
-                    await _context.SaveChangesAsync();
+                        var passwordHasher = new PasswordHasher<User>();
+                        var insertUser = new User
+                        {
+                            Name = input.Name,
+                            Username = input.Username,
+                            RoleId = input.RoleId,
+                            Password = passwordHasher.HashPassword(new User(), input.Password),
+                        };
+                        await _context.Users.AddAsync(insertUser);
+                        await _context.SaveChangesAsync();
+                    }
+                    else
+                    {
+                        throw new Exception("User ini sudah ada");
+                    }
                 }
                 else
                 {
-                    throw new Exception("User ini sudah ada");
+                    throw new Exception("Role Anda Bukan Admin");
                 }
             }
             catch (Exception ex) 

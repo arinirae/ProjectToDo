@@ -3,6 +3,7 @@ using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using ProjectToDo.Models;
 using ProjectToDo.Services.Dto;
+using System.Security.Claims;
 using Task = ProjectToDo.Models.Task;
 
 namespace ProjectToDo.Services
@@ -18,8 +19,11 @@ namespace ProjectToDo.Services
     public class TaskService : ITaskService
     {
         private readonly ToDoDbContext _context;
-        public TaskService(ToDoDbContext context)
+
+        private ClaimsPrincipal UserClaim;
+        public TaskService(IHttpContextAccessor httpContextAccessor, ToDoDbContext context)
         {
+            UserClaim = httpContextAccessor.HttpContext.User;
             _context = context;
         }
 
@@ -96,17 +100,28 @@ namespace ProjectToDo.Services
         {
             try
             {
-                var insertTask = new Task
+                var roleId = UserClaim.Claims.First(c => c.Type == "RoleId").Value;
+                var cekRole = (from a in _context.Roles
+                               where a.Id.ToString() == roleId
+                               select a.Name).FirstOrDefault();
+                if (cekRole == "PM" && cekRole == "QA")
                 {
-                    UserId = input.UserId,
-                    ProjectId = input.ProjectId,
-                    StatusId = input.StatusId,
-                    Title = input.Title,
-                    Description = input.Description,
-                    ExpiredDate = input.ExpiredDate,
-                };
-                await _context.Tasks.AddAsync(insertTask);
-                await _context.SaveChangesAsync();
+                    var insertTask = new Task
+                    {
+                        UserId = input.UserId,
+                        ProjectId = input.ProjectId,
+                        StatusId = input.StatusId,
+                        Title = input.Title,
+                        Description = input.Description,
+                        ExpiredDate = input.ExpiredDate,
+                    };
+                    await _context.Tasks.AddAsync(insertTask);
+                    await _context.SaveChangesAsync();
+                }
+                else
+                {
+                    throw new Exception("Role Anda bukan PM atau QA");
+                }
             }
             catch (Exception ex)
             {
